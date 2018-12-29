@@ -1,6 +1,6 @@
 {
   "docs" : {
-    "githubURL": "https://github.com/stellar/docs"
+    "githubURL": "https://github.com/overcat/stellar-docs"
   },
   "stellar-core" : {
     "githubURL": "https://github.com/stellar/stellar-core",
