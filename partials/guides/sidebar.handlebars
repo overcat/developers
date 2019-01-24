@@ -1,20 +1,20 @@
 <div class="siteSidebar pageNavListBounder">
   <div class="mainSidebar">
     <ul class="pageNavList">
-      {{#sidebarSubMenu "Get Started" numbered="true" }}
+      {{#sidebarSubMenu "入门" numbered="true" }}
         {{>sidebarSubItems glob="guides/get-started/index.html"}}
         {{>sidebarSubItems glob="guides/get-started/!(index).html"}}
       {{/sidebarSubMenu}}
 
 
-      {{#sidebarSubMenu "Become an Anchor" numbered="true" }}
+      {{#sidebarSubMenu "锚点" numbered="true" }}
         {{>sidebarSubItems glob="guides/anchor/index.html"}}
         {{>sidebarSubItems glob="guides/anchor/!(index).html"}}
       {{/sidebarSubMenu}}
 
-      {{>sidebarSubMenu title="Concepts" glob="guides/concepts/*.html"}}
+      {{>sidebarSubMenu title="概念" glob="guides/concepts/*.html"}}
 
-      {{>sidebarSubMenu title="Walkthroughs" glob="guides/walkthroughs/*.html"}}
+      {{>sidebarSubMenu title="演示" glob="guides/walkthroughs/*.html"}}
 
       {{>sidebarSubItems glob="guides/!(index|contributing|anchor).html"}}
       {{>sidebarSubItems glob="guides/contributing.html"}}
