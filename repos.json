@@ -11,11 +11,11 @@
     "projectTitle": "Interstellar"
   },
   "js-stellar-base" : {
-    "githubURL": "https://github.com/stellar/js-stellar-base",
+    "githubURL": "https://github.com/overcat/js-stellar-base",
     "projectTitle": "JS Stellar Base"
   },
   "js-stellar-sdk" : {
-    "githubURL": "https://github.com/stellar/js-stellar-sdk",
+    "githubURL": "https://github.com/overcat/js-stellar-sdk",
     "projectTitle": "JS Stellar SDK"
   },
   "go" : {
