@@ -1,6 +1,6 @@
 {
   "docs" : {
-    "githubURL": "https://github.com/overcat/stellar-docs"
+    "githubURL": "https://github.com/StellarCN/stellar-docs"
   },
   "stellar-core" : {
     "githubURL": "https://github.com/stellar/stellar-core",
@@ -11,11 +11,11 @@
     "projectTitle": "Interstellar"
   },
   "js-stellar-base" : {
-    "githubURL": "https://github.com/overcat/js-stellar-base",
+    "githubURL": "https://github.com/stellar/js-stellar-base",
     "projectTitle": "JS Stellar Base"
   },
   "js-stellar-sdk" : {
-    "githubURL": "https://github.com/overcat/js-stellar-sdk",
+    "githubURL": "https://github.com/stellar/js-stellar-sdk",
     "projectTitle": "JS Stellar SDK"
   },
   "go" : {

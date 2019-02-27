@@ -58,6 +58,9 @@ function addRepoInfo(file, filePath) {
   let repo = repos[file.repo];
   file.repoURL = repo.githubURL;
   file.repoBlobURL = repo.githubURL + "/blob/master/" + file.repoPath;
+  if (file.repo === 'docs') {
+    file.repoBlobURL = repo.githubURL + "/blob/master/translations/zh-Hans/" + file.repoPath;
+  }
 }
 
 function addProject(file, filePath) {
